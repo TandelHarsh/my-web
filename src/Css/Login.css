@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+.container{
+    display: flex;
+    width:95vw;
+    height: 100vh;
+    /* border: 2px solid black; */
+    align-items: center;
+    /* background-color: aquamarine; */
+    box-sizing: border-box;
+
+}
+.container .heading{
+    width: 70%;
+    /* height: 50%; */
+}
+.container .heading h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px 20px;
+    font-size: 70px;
+    color: blue;
+}
+.container .heading p{
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    margin: 0px 20px;
+    font-size: 25px;
+}
+.container .box{
+    width: 30%;
+    display: flex;
+    background-color: rgb(244 243 249);
+    border: 5px solid rgb(244 243 249);
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.container .box .Login-Form{
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .box .Login-Form .field{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .box .Login-Form .field input{
+    font-size: 18px;
+    padding-left: 10px;
+    width: 90%;
+    height: 40px;
+    margin: 10px 8px;
+    border-radius: 8px;
+}
+.container .box .Login-Form .field #Submit{
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+}
+.container .box .Login-Form .field #Submit:hover{
+    background-color: rgb(32, 32, 211);
+}
+.container .box .Login-Form p{
+ margin: 20px 0px 15px  0px;
+ font-size: 19px;
+ text-align: center;
+ cursor: pointer;
+
+}
+#create{
+    width: 70%; 
+    padding: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    background-color: rgb(62, 255, 62);
+    border: none;
+    border-radius: 6px;
+    color: white;
+    margin: 10px 0px;
+}
+#create:hover{
+    background-color: rgb(7, 213, 0);
+}

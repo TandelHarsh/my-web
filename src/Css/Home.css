@@ -1,0 +1,126 @@
+
+/* home.html
+ */
+.container{
+    position: relative;
+    color: white;
+}
+img{
+    width: 100%;
+    background-size: cover;
+}
+.heading{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+    z-index: 1;
+    text-align: center;
+    box-sizing: border-box;
+    color: white;
+}
+.heading p1{
+    text-align: center ;
+    font-size: 4em;
+    font-weight: 600;
+    margin: 10px 0px;
+}
+
+.heading h2,h3:not(){
+    margin: 20px 0px;
+    letter-spacing: 1px;
+    text-align:start;
+}
+.heading .userbtn button{
+    width: auto;
+    font-size: 18px;
+    padding: 20px;
+    border: none;
+    border-radius: 8px;
+    color:rgb(247, 114, 52);
+    cursor: pointer;
+    margin: 10px 10px;
+    transition: ease 0.3s;
+    background-color:transparent;
+    border: 2px solid rgb(247, 114, 52);
+}
+.heading .userbtn button:hover{
+    background-color: rgb(247, 114, 52);
+    color: white;
+    scale: 1.1;
+}
+
+
+/* cardbox */
+
+.cardBox{
+    width: 90%;
+    display: grid;
+    grid-template-rows: repeat(2,450px);
+    grid-template-columns: repeat(3,300px);
+    /* grid-template-columns: repeat(auto-fit,min(1fr,400px)); */
+    justify-content:center;
+    text-align: center;
+    gap: 2% ;
+}
+.home h1{
+    font-size: 2em;
+    font-weight: 600;
+    color: rgb(247, 114, 52);
+    filter: drop-shadow(1px 2px 2px rgb(247,114,52));
+}
+.cardBox .card{
+    margin: 10px 0px;
+    border:rgba(253, 127, 54, 0.623);
+    box-shadow: 2px 5px 10px rgba(236, 221, 214, 0.774);
+    border-radius: 10%;
+    box-sizing: border-box;
+}
+.cardBox .card:hover{
+    box-shadow: 10px 8px 8px rgba(236, 221, 214, 0.904);
+}
+.card button{
+    cursor: pointer;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.904);
+    background-color: rgb(247, 114, 52);
+    border: none;
+    padding: 8px;
+    border-radius:10px;
+    margin: 10px 0px ;
+}
+.card button:hover{
+    background-color: orangered;
+    color: white;
+}
+.card-img1{
+    background-image: url("../Images/pizza1.jpg");
+
+}
+.card-img2{
+    background-image: url("../Images/pizza2.jpg");
+
+}
+.card-img3{
+background-image: url("../Images/pizza4.jpg");
+}
+
+.card-img4{
+    background-image: url("../Images/pizza3.jpg");
+
+}
+.card-img5{
+    background-image: url("../Images/pizza5.jpg");
+
+}
+.card-img6{
+    background-image: url("../Images/pizza6.jpg");
+
+}
+.cardBox .card-img1 ,.card-img2 ,.card-img3,.card-img4,.card-img5,.card-img6{
+    width: 300px;
+    height: 300px;
+    background-size: cover;    
+    border-radius:10%;
+    justify-self: center;
+}

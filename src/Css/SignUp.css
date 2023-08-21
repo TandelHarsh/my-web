@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* 
+body{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.container{
+    width:35%;
+    background-color: rgb(232, 232, 232);
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.container .heading{
+    width: 100%;
+    margin-bottom: 20px;
+    display: inline;
+}
+.container .heading h1{
+    float: left;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight:800;
+    padding: 10px 0px 10px 12px;
+}
+#icon{
+    float: right;
+}
+.container .form-content{
+    background-color: #efeff9;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.container .form-content  .row1{
+    /* background-color: red; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0px;
+}
+.container .form-content  .row1 input{
+    width:40%;
+    margin: 0px 10px;
+    font-size: 20px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 6px;
+
+}
+.container .form-content  .row2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container .form-content  .row2 input{
+    width:85%;
+    margin: 0px 10px;
+    font-size: 20px;
+    margin: 20px 10px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 6px;
+
+}
+.container .form-content  .row3{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .form-content  .row3 input{
+    width: 50%;
+    background-color: rgb(26, 200, 26);
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 6px;
+    margin: 20px 0px;
+    padding: 8px 0px;
+}
+.container .form-content  .row3 input:hover{
+    background-color: rgb(5, 255, 5);
+}
