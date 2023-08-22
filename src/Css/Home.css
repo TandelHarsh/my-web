@@ -30,6 +30,8 @@ img{
     margin: 20px 0px;
     letter-spacing: 1px;
     text-align:start;
+    pointer-events: none;
+
 }
 .heading .userbtn button{
     width: auto;

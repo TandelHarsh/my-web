@@ -12,9 +12,8 @@ function App() {
     <div>
       {/* navbar */}
       <Nav />
-      
       <Routes>
-        <Route path='/home' Component={Home}></Route>
+        <Route path='/' Component={Home}></Route>
         <Route path='/about' Component={About}></Route>
         <Route path='/contact' Component={Contact}></Route>
       </Routes>
